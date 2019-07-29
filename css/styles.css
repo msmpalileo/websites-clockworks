@@ -1,0 +1,360 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a:hover {
+	text-decoration: none !important;
+}
+
+@font-face {
+  font-family: 'Market Deco';
+  src: url(../fonts/Market_Deco.ttf);
+}
+/*-----------------------------Navigation---------------------------------*/
+
+.nav
+{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	padding: 60px 20% 0 20%;
+}
+
+.nav-mobile {
+	display: none;
+}
+
+.nav div {
+	font-family: Market Deco;
+}
+
+.nav div a {
+	text-decoration: none; 
+	color: white;
+	font-size: 20px;
+
+}
+
+.nav div a:hover {
+	color: #faa244;	
+}
+
+.logo img
+{
+	width: 50px;
+}
+
+.logo {
+	margin-top: -20px;
+}
+
+/*-----------------------------Hero---------------------------------*/
+
+.hero-section {
+	height: 860px; 
+	text-align: center;
+}
+
+.mq-title {
+	display: none;
+}
+
+.hero-section h1 {
+	font-family: Market Deco;
+	color: #394061;
+	margin-top: 70px;
+	font-size: 60px;
+}
+
+.by {
+	font: 15px Market Deco;
+	text-align: center;
+	margin-top: -25px;
+}
+
+.hero-image {
+	text-align: center;
+}
+
+.hero-image img {
+	width: 600px;
+}
+
+.hero-buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: -20px;
+	margin-bottom: 30px;
+}
+
+.hero-buttons div {
+	margin: 30px 100px 0 100px;
+}
+
+.hero-buttons a {
+	color: #394061;
+}
+
+.hero-buttons a:hover{
+	color: #faa244;	
+}
+
+.learn-more-button {
+	text-decoration: underline;
+	text-decoration: none;
+	font: 22px Market Deco;
+
+	margin-top: 20px;
+	margin-bottom: -20px;
+}
+
+.shop-now-button a {
+	border: solid black 1px;
+	border-radius: 30px;
+	padding: 5px 20px;
+	text-decoration: none;
+	font: 28px Market Deco;
+}
+
+.shop-now-button a:hover {
+	border: 1px solid #faa244;
+}
+
+.going-down {
+	text-align: center;
+}
+
+.going-down img {
+	margin-top: 80px;
+	width: 3%;
+}
+
+/*-----------------------------Straps---------------------------------*/
+
+.straps-section {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 70px 10%;
+}
+
+.straps-images-mobile {
+	display: none;
+}
+
+.straps-info {
+	text-align: right;
+	margin-right: 25px;
+}
+
+
+.straps-info h2 {
+	font: 40px Market Deco;
+	color: #ae8d6a;
+}
+
+.straps-info hr {
+	width: 100%;
+	margin-top: -10px;
+}
+
+.straps-info p {
+	font: 21px Cambria Math;
+	color: #2a2f48;
+}
+
+.straps-images{
+	margin-left: 25px;
+}
+
+.straps-images div {
+	border:1px solid black;
+}
+
+.straps-images div {
+}
+
+.straps-images img {
+	width: 700px;
+}
+
+/*-----------------------------Advertise---------------------------------*/
+.ad-image-mobile {
+	display: none;
+}
+
+.advertisement-section {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 5% 10%;
+}
+
+.ad-image img {
+	width: 800px;
+}
+
+
+.ad-info {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ad-info div {
+	text-align: center;
+	width: 100%;
+	font-family: Cambria Math;
+	padding: 50px 30px;
+	color: white;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.ad-info hr {
+	width: 100%;
+	margin-top: -10px;
+}
+
+.ad-info div h1 {
+	font-size: 40px;
+	font-family: Market Deco;
+}
+
+.ad-info div p {
+	font-size: 22px;
+}
+
+
+.ad-info div {
+	margin-left: 160px;
+}
+
+/*-----------------------------Features---------------------------------*/
+
+.features-section {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+    font: 20px Cambria Math;
+    padding: 5% 10%;
+    color: #394061;
+}
+
+.features-section div {
+	padding: 0px 30px;
+	margin: 0px 30px;
+	line-height: 35px;
+}
+
+.feat-detail {
+	float: right;
+}
+
+.feat-image img {
+	width: 600px;
+	padding-top: 150px;
+}
+
+
+/*-----------------------------Selection---------------------------------*/
+
+
+.selection-section {
+	text-align: center;
+	font: 22px Market Deco !important;
+	color: #394061;
+}
+
+.selection-section h1 {
+	margin-bottom: -20px;
+	font-family: Market Deco !important;
+}
+
+.selection-watches {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.selection-watches div {
+	text-align: center;	
+}
+
+.watch {
+	margin: 60px 50px;
+	padding: 20px 10px 10px 20px;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 50px;
+}
+
+.selection-watches img {
+	width: 200px;
+}
+
+.selection-watches div p {
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	margin-top: 10px;
+}
+
+
+.watch a {
+	text-decoration: none;
+	color: #394061;
+}
+
+#my-slider a {
+	text-decoration: none !important;
+}
+
+
+#mq-slider {
+	display: none;
+}
+
+/*-----------------------------Footer---------------------------------*/
+
+.footer {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	font: 15px Microsoft tai le;
+}
+
+.footer a {
+	text-decoration: none;
+	color: black;
+}
+
+.footer ul {
+	list-style: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+
+.footer-watches, .footer-access, .footer-about, .footer-social {
+	width: 20%;
+	padding-left: 10px;
+}
+
+.footer-social img {
+	width: 50px;
+}
+
+.footer-social-img {
+	margin-top: 5px;
+}
+
+/*-----------------------------Footer---------------------------------*/
+
+.copyright {
+	text-align: center;
+	font: 14px Segoe UI;
+}
+
+.footer-slider {
+	display: none;
+}
